@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Esteh Segar - Nikmatnya Sejati</title>
+    <link rel="stylesheet" href="style1.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Esteh Segar</h1>
+      <nav>
+        <ul>
+          <li><a href="coba.html">Beranda</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="#">Tentang Kami</a></li>
+          <li><a href="#">Kontak</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero"></section>
+
+    <section class="menu-container" id="menu-container">
+      <ul class="menu-list">
+        <li>
+          <img src="esteh.png" alt="Esteh Original" />
+          <h3>Esteh Original</h3>
+          <p>Deskripsi Esteh Original</p>
+        </li>
+        <li>
+          <img src="estehtarik.png" alt="Esteh Teh Tarik" />
+          <h3>Esteh Teh Tarik</h3>
+          <p>Deskripsi Esteh Teh Tarik</p>
+        </li>
+        <li>
+          <img src="estehjeruk.png" alt="Esteh Jeruk Nipis" />
+          <h3>Esteh Jeruk Nipis</h3>
+          <p>Deskripsi Esteh Jeruk Nipis</p>
+        </li>
+      </ul>
+    </section>
+
+    <script>
+      function toggleMenu() {
+        const menuContainer = document.getElementById("menu-container");
+        menuContainer.classList.toggle("show");
+      }
+    </script>
+  </body>
+</html>
